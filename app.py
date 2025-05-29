@@ -29,8 +29,9 @@ def create_table():
             item TEXT,
             price REAL,
             total REAL,
-            category TEXT,
-            date TEXT
+            date TEXT,
+            category TEXT
+           
         )
     ''')
     # Try adding date column if it doesn't exist
